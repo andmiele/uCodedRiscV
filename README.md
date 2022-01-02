@@ -14,7 +14,7 @@ by the micro program counter register (uPC),
 a ROM holding the "micro-jump" addresses for the micro-PC register (decode-stage: "micro-address"
 corresponds to the decoded RISC-V RV32I instruction type)
 and one ROM that holds the ALU control commands for the decoded instruction (execute-stage)
-![Datapath](https://github.com/[andmiele]/[uCodedRiscV]/blob/main/controlunit.jpg?raw=true)
+![Datapath](https://github.com/andmiele/uCodedRiscV/blob/main/controlunit.jpg?raw=true)
 ## Instruction Latency
 * LUI: 3 clock cycles
 * AUIPC: 3 clock cycles
@@ -32,5 +32,5 @@ A next program counter register (NPC) is used to hold the value of PC + 4 until 
 or a computed address.
 Instruction memory (connected to the instruction register (IR)), data memory and dual-ported register file are assumed to be
 readable and writable in one clock cycle
-![Datapath](https://github.com/[andmiele]/[uCodedRiscV]/blob/main/datapath.jpg?raw=true)
+![Datapath](https://github.com/andmiele/uCodedRiscV/blob/main/datapath.jpg?raw=true)
 
