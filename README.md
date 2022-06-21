@@ -22,7 +22,7 @@ and a ROM that holds the ALU control commands for the decoded instruction (execu
 * AUIPC: 3 clock cycles
 * J-TYPE: 3 clock cycles
 * R-TYPE: 3 clock cycles
-* I-TYPE: 4 clock cycles
+* I-TYPE: 3 clock cycles
 * B-TYPE: 4 clock cycles
 * S-TYPE: 4 clock cycles
 ## Datapath
